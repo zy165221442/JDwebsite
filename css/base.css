@@ -186,8 +186,50 @@ s,i,em{font-style:normal;text-decoration:none;}
 }
 
 .car {
-    width: 139px;
-    height: 34px;
+    width: 96px;
+    padding-left: 43px;
     float: right;
     margin: 25px 65px 0 0;
+    border: 1px solid #DFDFDF;
+    line-height: 34px;
+    position: relative;
+}
+
+.icon1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 16px;
+    height: 13px;
+    background: url(../images/sprite.png) no-repeat -1px -59px;
+}
+
+.icon2 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font: 400 13px/13px SimSun;
+}
+
+.icon3 {
+    position: absolute;
+    width: 16px;
+    height: 14px;
+    background-color: #C81623;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #fff;
+    top: -4px;
+    border-radius: 7px 7px 7px 0;
+}
+
+.hotwords {
+    width: 500px;
+    padding: 7px 0;
+    float: left;
+}
+
+.hotwords a{
+    margin-right: 6px;
 }

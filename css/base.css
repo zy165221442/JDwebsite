@@ -233,3 +233,49 @@ s,i,em{font-style:normal;text-decoration:none;}
 .hotwords a{
     margin-right: 6px;
 }
+
+/*底部start*/
+.slogen {
+    height: 54px;
+    padding: 20px 0;
+    background-color: #f5f5f5;
+    position: relative;
+    margin-bottom: 25px;
+}
+.item {
+    width: 302px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+}
+
+.slogen1 {
+    margin-left: -608px;
+}
+
+.slogen2 {
+    margin-left: -304px;
+}
+
+.slogen3 {
+    margin-left: 2px;
+}
+
+.slogen4 {
+    margin-left: 304px;
+}
+
+.service dl {
+    width: 198px;
+    float: left;
+}
+
+.service dt {
+    font-size: 16px;
+    height: 28px;
+    font-family: "Microsoft YaHei";
+}
+
+.service dd {
+    height: 20px;
+}
